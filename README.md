@@ -9,7 +9,7 @@ Install
 
 Use vundle, add 
 ```
-Plugin 'valsorym/vim-clear-debris'
+Plugin 'valsorym/vim-clear'
 ```
 and run `:PluginInstall!` in your vim.
 
@@ -25,7 +25,7 @@ Add next configs into `~/.vimrc`:
 """ Remove trailing blanks.
 """ USAGE: Ctrl+x, a
 """ URLS:
-"""     https://github.com/valsorym/vim-clear-debris
+"""     https://github.com/valsorym/vim-clear
 """
 """ Key mapping.
 command -bar -nargs=? ShowSpaces call ShowSpaces(<args>)
